@@ -1,0 +1,45 @@
+/.claude
+CLAUDE.md
+
+
+# --- .NET / C# ---
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.dll
+*.exe
+*.pdb
+*.log
+*.nupkg
+*.snupkg
+
+# --- Frontend / JS / 빌드 산출물 ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+.env
+.env.* 
+.cache/
+
+# --- IDE / 에디터 / OS 관련 ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+~*  
+
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.log
