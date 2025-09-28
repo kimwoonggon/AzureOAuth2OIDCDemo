@@ -31,7 +31,6 @@ AzureOAuthDemo/
 │   ├── app.js                # 애플리케이션 로직
 │   └── styles.css            # 스타일링
 ├── AZURE_SETUP_GUIDE.md      # Azure Portal 설정 가이드
-├── CLAUDE.md                 # Claude Code 가이드
 ├── code_explanation.md       # 상세 코드 설명
 ├── start-backend.sh          # 백엔드 시작 스크립트
 └── start-frontend.sh         # 프론트엔드 시작 스크립트
@@ -343,6 +342,7 @@ npx http-server -p 3000
 - [Microsoft.Identity.Web 문서](https://docs.microsoft.com/ko-kr/azure/active-directory/develop/microsoft-identity-web)
 - [Azure AD 인증 플로우](https://docs.microsoft.com/ko-kr/azure/active-directory/develop/authentication-flows-app-scenarios)
 - [ASP.NET Core Web API 보호](https://docs.microsoft.com/ko-kr/azure/active-directory/develop/scenario-protected-web-api-overview)
+
 
 
 **참고**: 이 프로젝트는 .NET 9.0으로 구성되어 있으며, .NET 8.0 이상에서도 작동합니다. 더 낮은 버전이 필요한 경우 `AzureOAuthAPI.csproj`의 `TargetFramework`를 수정하세요.
